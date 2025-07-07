@@ -13,7 +13,7 @@ phases:
   build:
     commands:
       - echo Building frontend...
-      - cd ../../application-code/web-tier
+      - cd application-code/web-tier
       - npm run build
       - cd ../../
       - echo Build docker image...
