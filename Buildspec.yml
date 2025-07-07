@@ -17,5 +17,5 @@ phases:
       - npm run build
       - cd ../../
       - echo Build docker image...
-      - docker build -t chaitanyapaagre/cloned-3-tier-repo:latest .
+      - docker build -t chaitanyapaagre/cloned-3-tier-repo:latest ./
       - echo build complete.
