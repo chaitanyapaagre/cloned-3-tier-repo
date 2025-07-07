@@ -14,5 +14,6 @@ phases:
       - echo Building frontend...
       - cd ../../application-code/web-tier
       - npm run build
-      - docker install
-      - echo docker installed.
+      - echo Build docker image...
+      - docker build -t cloned-3-tier-repo:latest .
+      - echo build complete.
